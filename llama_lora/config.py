@@ -15,7 +15,7 @@ class Config:
     default_base_model_name: str = ""
     base_model_choices: Union[List[str], str] = []
     load_8bit: bool = False
-    trust_remote_code: bool = False
+    trust_remote_code: bool = True
 
     # Application Settings
     timezone: Any = pytz.UTC
